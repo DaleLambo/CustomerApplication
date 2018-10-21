@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CustomerApplicationApi</name>
+    </assembly>
+    <members>
+        <member name="M:CustomerApplicationApi.Controllers.CustomersController.Get">
+            <summary>
+            Gets all Customers.
+            </summary>
+            <returns>OkResult</returns>
+        </member>
+        <member name="M:CustomerApplicationApi.Controllers.CustomersController.Get(System.Int32)">
+            <summary>
+            Gets customer based on Id parameter.
+            </summary>
+            <param name="id">Identifier parameter id</param>
+            <returns>OkResult</returns>
+        </member>
+        <member name="M:CustomerApplicationApi.Controllers.CustomersController.Post(CustomerApplicationApi.Models.Customer)">
+            <summary>
+            Creates new Customers.
+            </summary>
+            <param name="customer">New customer parameter</param>
+            <returns>CreatedActionResult</returns>
+        </member>
+        <member name="M:CustomerApplicationApi.Controllers.CustomersController.Put(CustomerApplicationApi.Models.Customer)">
+            <summary>
+            Updates or edits existing customer.
+            </summary>
+            <param name="customer">Existing customer paramater</param>
+            <returns>CreatedActionResult</returns>
+        </member>
+        <member name="M:CustomerApplicationApi.Controllers.CustomersController.Delete(System.Int32)">
+            <summary>
+            Deletes customer based on Id parameter.
+            </summary>
+            <param name="id">Identifier parameter id</param>
+            <returns>OkResult</returns>
+        </member>
+    </members>
+</doc>
